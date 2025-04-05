@@ -2,6 +2,7 @@
 import React from "react";
 import { Linkedin } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -40,8 +41,16 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">{t("footer.company")}</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">{t("footer.companyLinks.about")}</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">{t("footer.companyLinks.contact")}</a></li>
+              <li>
+                <Link to="/about" className="text-muted-foreground hover:text-primary transition-colors">
+                  {t("footer.companyLinks.about")}
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">
+                  {t("footer.companyLinks.contact")}
+                </Link>
+              </li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">{t("footer.companyLinks.blog")}</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">{t("footer.companyLinks.jobs")}</a></li>
             </ul>

@@ -5,7 +5,6 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import AISection from "@/components/AISection";
 import CarbonCredits from "@/components/CarbonCredits";
-import Mission from "@/components/Mission";
 import Roadmap from "@/components/Roadmap";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
@@ -18,7 +17,6 @@ const Index = () => {
       <Features />
       <AISection />
       <CarbonCredits />
-      <Mission />
       <Roadmap />
       <CTA />
       <Footer />

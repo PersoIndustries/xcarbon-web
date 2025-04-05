@@ -97,7 +97,7 @@
   },
   "mission": {
     "title": "Nuestra Misión",
-    "paragraph1": "En xCarbon estamos comprometidos con transformar la gestión de residuos orgánicos en España mediante tecnología de vanguardia, contribuyendo activamente a la economía circular y la lucha contra el cambio climático.",
+    "paragraph1": "En xCarbon estamos comprometidos con transformar la gestión de residuos orgánicos en España y Europa mediante tecnología de vanguardia, contribuyendo activamente a la economía circular y la lucha contra el cambio climático.",
     "paragraph2": "Nuestra visión es convertir cada planta de compostaje en un centro de innovación sostenible que no solo reduce residuos, sino que genera valor económico y ambiental a través de la producción de compost de alta calidad y créditos de carbono verificables.",
     "stats": {
       "plants": "Plantas gestionadas",
@@ -123,6 +123,53 @@
         "title": "Impacto social",
         "description": "Creación de valor para las comunidades donde operan las plantas que utilizan nuestra tecnología."
       }
+    }
+  },
+  "team": {
+    "title": "Nuestro Equipo",
+    "description": "Conoce a las personas que impulsan la innovación en tecnología de compostaje y gestión de créditos de carbono.",
+    "members": {
+      "member1": {
+        "name": "Jane Doe",
+        "position": "CEO & Fundadora",
+        "bio": "Con más de 15 años de experiencia en tecnología ambiental, Jane lidera la visión y estrategia de xCarbon."
+      },
+      "member2": {
+        "name": "John Smith",
+        "position": "CTO",
+        "bio": "Pionero en aplicar IA a procesos ambientales, John lidera nuestro desarrollo tecnológico e innovación."
+      },
+      "member3": {
+        "name": "Maria Garcia",
+        "position": "Directora de Mercados de Carbono",
+        "bio": "Experta en créditos de carbono y tecnología blockchain, Maria supervisa nuestras soluciones de tokenización y marketplace."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "¿Tienes preguntas sobre xCarbon o estás interesado en unirte a nuestro programa piloto? ¡Ponte en contacto con nuestro equipo!",
+    "form": {
+      "name": "Tu Nombre",
+      "email": "Tu Email",
+      "subject": "Asunto",
+      "message": "Tu Mensaje",
+      "submit": "Enviar Mensaje",
+      "submitting": "Enviando..."
+    },
+    "success": {
+      "title": "Mensaje Enviado",
+      "message": "Gracias por contactarnos. Nos pondremos en contacto contigo pronto!"
+    },
+    "error": {
+      "title": "Error",
+      "message": "Hubo un problema al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde."
+    },
+    "info": {
+      "title": "Información de Contacto",
+      "email": "Email",
+      "phone": "Teléfono",
+      "location": "Ubicación"
     }
   },
   "roadmap": {
@@ -216,7 +263,7 @@
   },
   "languageSelector": {
     "es": "Español",
-    "en": "Inglés",
-    "fr": "Francés"
+    "en": "English",
+    "fr": "Français"
   }
 }

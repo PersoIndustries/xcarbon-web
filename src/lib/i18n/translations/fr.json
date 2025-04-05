@@ -97,7 +97,7 @@
   },
   "mission": {
     "title": "Notre Mission",
-    "paragraph1": "Chez xCarbon, nous nous engageons à transformer la gestion des déchets organiques en Espagne grâce à une technologie de pointe, contribuant activement à l'économie circulaire et à la lutte contre le changement climatique.",
+    "paragraph1": "Chez xCarbon, nous nous engageons à transformer la gestion des déchets organiques en Espagne et en Europe grâce à une technologie de pointe, contribuant activement à l'économie circulaire et à la lutte contre le changement climatique.",
     "paragraph2": "Notre vision est de transformer chaque usine de compostage en un centre d'innovation durable qui non seulement réduit les déchets, mais génère également une valeur économique et environnementale grâce à la production de compost de haute qualité et de crédits carbone vérifiables.",
     "stats": {
       "plants": "Usines gérées",
@@ -123,6 +123,53 @@
         "title": "Impact social",
         "description": "Création de valeur pour les communautés où opèrent les usines qui utilisent notre technologie."
       }
+    }
+  },
+  "team": {
+    "title": "Notre Équipe",
+    "description": "Découvrez les personnes qui encouragent l'innovation dans la technologie du compostage et la gestion des crédits carbone.",
+    "members": {
+      "member1": {
+        "name": "Jane Doe",
+        "position": "PDG & Fondatrice",
+        "bio": "Avec plus de 15 ans d'expérience dans la technologie environnementale, Jane dirige la vision et la stratégie de xCarbon."
+      },
+      "member2": {
+        "name": "John Smith",
+        "position": "Directeur technique",
+        "bio": "Pionnier dans l'application de l'IA aux processus environnementaux, John dirige notre développement technologique et notre innovation."
+      },
+      "member3": {
+        "name": "Maria Garcia",
+        "position": "Directrice des marchés du carbone",
+        "bio": "Experte en crédits carbone et en technologie blockchain, Maria supervise nos solutions de tokenisation et de marché."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Vous avez des questions sur xCarbon ou vous êtes intéressé à rejoindre notre programme pilote ? Contactez notre équipe !",
+    "form": {
+      "name": "Votre nom",
+      "email": "Votre email",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "submit": "Envoyer le message",
+      "submitting": "Envoi en cours..."
+    },
+    "success": {
+      "title": "Message envoyé",
+      "message": "Merci de nous avoir contactés. Nous vous répondrons bientôt !"
+    },
+    "error": {
+      "title": "Erreur",
+      "message": "Il y a eu un problème lors de l'envoi de votre message. Veuillez réessayer plus tard."
+    },
+    "info": {
+      "title": "Informations de contact",
+      "email": "Email",
+      "phone": "Téléphone",
+      "location": "Emplacement"
     }
   },
   "roadmap": {

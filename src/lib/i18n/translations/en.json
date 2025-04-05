@@ -97,7 +97,7 @@
   },
   "mission": {
     "title": "Our Mission",
-    "paragraph1": "At xCarbon we are committed to transforming organic waste management in Spain through cutting-edge technology, actively contributing to the circular economy and the fight against climate change.",
+    "paragraph1": "At xCarbon we are committed to transforming organic waste management in Spain and Europe through cutting-edge technology, actively contributing to the circular economy and the fight against climate change.",
     "paragraph2": "Our vision is to turn each composting plant into a sustainable innovation center that not only reduces waste, but generates economic and environmental value through the production of high-quality compost and verifiable carbon credits.",
     "stats": {
       "plants": "Plants managed",
@@ -123,6 +123,53 @@
         "title": "Social impact",
         "description": "Creating value for the communities where plants using our technology operate."
       }
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Meet the people driving innovation in composting technology and carbon credit management.",
+    "members": {
+      "member1": {
+        "name": "Jane Doe",
+        "position": "CEO & Founder",
+        "bio": "With over 15 years of experience in environmental technology, Jane leads xCarbon's vision and strategy."
+      },
+      "member2": {
+        "name": "John Smith",
+        "position": "CTO",
+        "bio": "A pioneer in applying AI to environmental processes, John leads our technology development and innovation."
+      },
+      "member3": {
+        "name": "Maria Garcia",
+        "position": "Carbon Markets Director",
+        "bio": "Expert in carbon credits and blockchain technology, Maria oversees our tokenization and marketplace solutions."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Have questions about xCarbon or interested in joining our pilot program? Get in touch with our team!",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "submitting": "Sending..."
+    },
+    "success": {
+      "title": "Message Sent",
+      "message": "Thank you for contacting us. We'll get back to you soon!"
+    },
+    "error": {
+      "title": "Error",
+      "message": "There was a problem sending your message. Please try again later."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location"
     }
   },
   "roadmap": {
@@ -215,8 +262,8 @@
     }
   },
   "languageSelector": {
-    "es": "Spanish",
+    "es": "Español",
     "en": "English",
-    "fr": "French"
+    "fr": "Français"
   }
 }
