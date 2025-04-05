@@ -2,48 +2,51 @@
 import React from "react";
 import { BadgeCheck, LineChart, BarChart, Recycle, Clock, Database } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-
-const features = [
-  {
-    title: "Monitoreo en tiempo real",
-    description: "Control completo de todos los procesos de compostaje en una interfaz unificada e intuitiva.",
-    icon: Clock,
-  },
-  {
-    title: "Análisis de datos avanzado",
-    description: "Visualización de KPIs y métricas clave para optimizar la operación de las plantas.",
-    icon: BarChart,
-  },
-  {
-    title: "Gestión de recursos",
-    description: "Planificación eficiente de recursos, personal y maquinaria para maximizar la productividad.",
-    icon: Database,
-  },
-  {
-    title: "Trazabilidad completa",
-    description: "Seguimiento del ciclo completo desde residuos orgánicos hasta compost final y créditos de carbono.",
-    icon: Recycle,
-  },
-  {
-    title: "Cumplimiento normativo",
-    description: "Aseguramos el cumplimiento de todas las regulaciones ambientales y requisitos legales españoles.",
-    icon: BadgeCheck,
-  },
-  {
-    title: "Reportes personalizados",
-    description: "Generación de informes detallados sobre rendimiento, sostenibilidad y huella de carbono.",
-    icon: LineChart,
-  },
-];
+import { useLanguage } from "@/lib/i18n/LanguageContext";
 
 const Features = () => {
+  const { t } = useLanguage();
+
+  const features = [
+    {
+      title: t("features.items.monitoring.title"),
+      description: t("features.items.monitoring.description"),
+      icon: Clock,
+    },
+    {
+      title: t("features.items.analytics.title"),
+      description: t("features.items.analytics.description"),
+      icon: BarChart,
+    },
+    {
+      title: t("features.items.resources.title"),
+      description: t("features.items.resources.description"),
+      icon: Database,
+    },
+    {
+      title: t("features.items.traceability.title"),
+      description: t("features.items.traceability.description"),
+      icon: Recycle,
+    },
+    {
+      title: t("features.items.compliance.title"),
+      description: t("features.items.compliance.description"),
+      icon: BadgeCheck,
+    },
+    {
+      title: t("features.items.reports.title"),
+      description: t("features.items.reports.description"),
+      icon: LineChart,
+    },
+  ];
+
   return (
     <section id="features" className="section bg-muted">
       <div className="container mx-auto container-padding">
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <h2 className="mb-4">Características Principales</h2>
+          <h2 className="mb-4">{t("features.title")}</h2>
           <p className="text-muted-foreground text-lg">
-            Nuestra plataforma integra todas las herramientas necesarias para optimizar la gestión de plantas de compostaje
+            {t("features.subtitle")}
           </p>
         </div>
 

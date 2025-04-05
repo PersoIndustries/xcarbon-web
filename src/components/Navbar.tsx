@@ -3,10 +3,13 @@ import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { useLanguage } from "@/lib/i18n/LanguageContext";
+import LanguageSelector from "./LanguageSelector";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,11 +27,11 @@ const Navbar = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   const navLinks = [
-    { name: "Inicio", href: "#" },
-    { name: "Características", href: "#features" },
-    { name: "IA & Innovación", href: "#ai-innovation" },
-    { name: "Créditos de Carbono", href: "#carbon-credits" },
-    { name: "Sobre Nosotros", href: "#mission" },
+    { name: t("navbar.home"), href: "#" },
+    { name: t("navbar.features"), href: "#features" },
+    { name: t("navbar.ai"), href: "#ai-innovation" },
+    { name: t("navbar.carbon"), href: "#carbon-credits" },
+    { name: t("navbar.about"), href: "#mission" },
   ];
 
   return (
@@ -55,11 +58,13 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <Button size="sm">Contactar</Button>
+            <LanguageSelector />
+            <Button size="sm">{t("navbar.contact")}</Button>
           </nav>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center gap-2">
+            <LanguageSelector />
             <Button
               variant="ghost"
               size="icon"
@@ -87,7 +92,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button className="w-full" size="sm">
-              Contactar
+              {t("navbar.contact")}
             </Button>
           </nav>
         </div>

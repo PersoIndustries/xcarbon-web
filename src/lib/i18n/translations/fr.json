@@ -1,0 +1,139 @@
+
+{
+  "navbar": {
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "ai": "IA & Innovation",
+    "carbon": "Crédits Carbone",
+    "about": "À Propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Startup innovante en gestion de compostage",
+    "title": "L'avenir de la gestion du compostage avec xCarbon",
+    "description": "Développement d'une plateforme SAAS qui optimisera le processus de compostage avec l'IA, automatisera la création de crédits carbone et maximisera l'efficacité opérationnelle.",
+    "join": "Rejoindre le programme pilote",
+    "roadmap": "Voir la feuille de route",
+    "stats": {
+      "efficiency": "Augmentation d'efficacité prévue",
+      "cost": "Réduction de coûts estimée",
+      "value": "Valeur potentielle des crédits"
+    }
+  },
+  "features": {
+    "title": "Caractéristiques Principales",
+    "subtitle": "Notre plateforme intègre tous les outils nécessaires pour optimiser la gestion des usines de compostage",
+    "items": {
+      "monitoring": {
+        "title": "Surveillance en temps réel",
+        "description": "Contrôle complet de tous les processus de compostage dans une interface unifiée et intuitive."
+      },
+      "analytics": {
+        "title": "Analyse avancée des données",
+        "description": "Visualisation des KPIs et des métriques clés pour optimiser l'exploitation des usines."
+      },
+      "resources": {
+        "title": "Gestion des ressources",
+        "description": "Planification efficace des ressources, du personnel et des machines pour maximiser la productivité."
+      },
+      "traceability": {
+        "title": "Traçabilité complète",
+        "description": "Suivi du cycle complet depuis les déchets organiques jusqu'au compost final et aux crédits carbone."
+      },
+      "compliance": {
+        "title": "Conformité réglementaire",
+        "description": "Nous assurons la conformité à toutes les réglementations environnementales et aux exigences légales espagnoles."
+      },
+      "reports": {
+        "title": "Rapports personnalisés",
+        "description": "Génération de rapports détaillés sur les performances, la durabilité et l'empreinte carbone."
+      }
+    }
+  },
+  "ai": {
+    "title": "IA pour la transformation du compostage",
+    "description": "Chez xCarbon, l'intelligence artificielle n'est pas un complément, mais le cœur de notre proposition de valeur. Notre technologie apprend constamment pour améliorer l'efficacité, réduire les coûts et maximiser la production.",
+    "roadmap": "Notre feuille de route IA",
+    "roadmap_description": "comprend des algorithmes de plus en plus sophistiqués pour la prédiction des résultats, l'optimisation des ressources et la génération automatique de rapports basés sur les données.",
+    "algorithms": {
+      "title": "Algorithmes prédictifs",
+      "description": "Nous utilisons des modèles d'apprentissage profond pour prédire les conditions optimales de compostage, le temps de maturation et la qualité du compost."
+    },
+    "optimization": {
+      "title": "Optimisation des processus",
+      "description": "Nos algorithmes analysent continuellement les données pour identifier les opportunités d'amélioration dans le processus de compostage et réduire les temps de traitement."
+    },
+    "automation": {
+      "title": "Automatisation intelligente",
+      "description": "Systèmes automatisés qui ajustent des paramètres comme l'aération, l'humidité et la température en temps réel sur la base de données et de modèles prédictifs."
+    }
+  },
+  "roadmap": {
+    "title": "Notre Feuille de Route",
+    "subtitle": "Nous sommes en plein développement pour révolutionner le secteur du compostage en Espagne",
+    "milestones": {
+      "start": "Début",
+      "poc": "Preuve de concept",
+      "app05": "Application version 0.5",
+      "app1": "Gestionnaire d'usines. Version 1",
+      "gov": "Intégrations gouvernementales",
+      "carbon": "Crédits carbone automatisés"
+    },
+    "descriptions": {
+      "start": "Premiers tests de concept et idéation.",
+      "poc": "Appliqué à une usine de compostage.",
+      "app05": "Appliqué à une usine de compostage. Gestion de base des processus.",
+      "app1": "Plateforme complète de gestion multi-usines.",
+      "gov": "Intégration automatique avec les entités gouvernementales.",
+      "carbon": "Génération automatique de documentation pour les crédits carbone."
+    },
+    "current": "Actuellement en développement",
+    "looking": "Nous recherchons des partenaires et des usines de compostage intéressés par la participation à nos tests pilotes."
+  },
+  "cta": {
+    "title": "Faites partie de la révolution du compostage",
+    "description": "Nous recherchons des usines de compostage en Espagne pour notre programme pilote. Soyez parmi les premiers à optimiser vos processus et à explorer le potentiel des crédits carbone avec xCarbon.",
+    "join": "Rejoindre le programme pilote",
+    "contact": "Contacter l'équipe",
+    "stats": {
+      "pilot": "Pilote",
+      "implementation": "Implémentation",
+      "support": "Support",
+      "roi": "ROI"
+    },
+    "subStats": {
+      "pilot": "Personnalisé",
+      "implementation": "En développement",
+      "support": "Dédié",
+      "roi": "Estimé à 3-6 mois"
+    }
+  },
+  "footer": {
+    "description": "Transformation de la gestion des usines de compostage avec une technologie avancée, l'IA et la tokenisation des crédits carbone.",
+    "solutions": "Solutions",
+    "company": "Entreprise",
+    "solutionsLinks": {
+      "plants": "Gestion d'usines",
+      "data": "Analyse de données",
+      "tokenization": "Tokenisation",
+      "marketplace": "Marketplace"
+    },
+    "companyLinks": {
+      "about": "À Propos",
+      "contact": "Contact",
+      "blog": "Blog",
+      "jobs": "Travaillez avec nous"
+    },
+    "rights": "Tous droits réservés.",
+    "legal": {
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "cookies": "Cookies"
+    }
+  },
+  "languageSelector": {
+    "es": "Espagnol",
+    "en": "Anglais",
+    "fr": "Français"
+  }
+}

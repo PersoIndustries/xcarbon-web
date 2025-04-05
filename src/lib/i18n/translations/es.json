@@ -1,0 +1,139 @@
+
+{
+  "navbar": {
+    "home": "Inicio",
+    "features": "Características",
+    "ai": "IA & Innovación",
+    "carbon": "Créditos de Carbono",
+    "about": "Sobre Nosotros",
+    "contact": "Contactar"
+  },
+  "hero": {
+    "badge": "Startup innovadora en gestión de compostaje",
+    "title": "El futuro de la gestión de compostaje con xCarbon",
+    "description": "Desarrollando una plataforma SAAS que optimizará el proceso de compostaje con IA, automatizará la creación de créditos de carbono y maximizará la eficiencia operativa.",
+    "join": "Unirse al programa piloto",
+    "roadmap": "Ver roadmap",
+    "stats": {
+      "efficiency": "Aumento de eficiencia previsto",
+      "cost": "Reducción estimada de costos",
+      "value": "Valor potencial de créditos"
+    }
+  },
+  "features": {
+    "title": "Características Principales",
+    "subtitle": "Nuestra plataforma integra todas las herramientas necesarias para optimizar la gestión de plantas de compostaje",
+    "items": {
+      "monitoring": {
+        "title": "Monitoreo en tiempo real",
+        "description": "Control completo de todos los procesos de compostaje en una interfaz unificada e intuitiva."
+      },
+      "analytics": {
+        "title": "Análisis de datos avanzado",
+        "description": "Visualización de KPIs y métricas clave para optimizar la operación de las plantas."
+      },
+      "resources": {
+        "title": "Gestión de recursos",
+        "description": "Planificación eficiente de recursos, personal y maquinaria para maximizar la productividad."
+      },
+      "traceability": {
+        "title": "Trazabilidad completa",
+        "description": "Seguimiento del ciclo completo desde residuos orgánicos hasta compost final y créditos de carbono."
+      },
+      "compliance": {
+        "title": "Cumplimiento normativo",
+        "description": "Aseguramos el cumplimiento de todas las regulaciones ambientales y requisitos legales españoles."
+      },
+      "reports": {
+        "title": "Reportes personalizados",
+        "description": "Generación de informes detallados sobre rendimiento, sostenibilidad y huella de carbono."
+      }
+    }
+  },
+  "ai": {
+    "title": "IA para la transformación del compostaje",
+    "description": "En xCarbon, la inteligencia artificial no es un añadido, sino el núcleo de nuestra propuesta de valor. Nuestra tecnología aprende constantemente para mejorar la eficiencia, reducir costos y maximizar la producción.",
+    "roadmap": "Nuestro roadmap de IA",
+    "roadmap_description": "incluye algoritmos cada vez más sofisticados para la predicción de resultados, optimización de recursos y generación automática de informes basados en datos.",
+    "algorithms": {
+      "title": "Algoritmos predictivos",
+      "description": "Utilizamos modelos de aprendizaje profundo para predecir las condiciones óptimas de compostaje, tiempo de maduración y calidad del compost."
+    },
+    "optimization": {
+      "title": "Optimización de procesos",
+      "description": "Nuestros algoritmos analizan continuamente datos para identificar oportunidades de mejora en el proceso de compostaje y reducir tiempos de procesamiento."
+    },
+    "automation": {
+      "title": "Automatización inteligente",
+      "description": "Sistemas automatizados que ajustan parámetros como aireación, humedad y temperatura en tiempo real basados en datos y modelos predictivos."
+    }
+  },
+  "roadmap": {
+    "title": "Nuestro Roadmap",
+    "subtitle": "Estamos en pleno desarrollo para revolucionar el sector del compostaje en España",
+    "milestones": {
+      "start": "Inicio",
+      "poc": "Prueba de concepto",
+      "app05": "Aplicación versión 0.5",
+      "app1": "Gestor de plantas. Versión 1",
+      "gov": "Integraciones gubernamentales",
+      "carbon": "Créditos de carbono automatizados"
+    },
+    "descriptions": {
+      "start": "Primeras pruebas de concepto e ideación.",
+      "poc": "Aplicada a una planta de compostaje.",
+      "app05": "Aplicada a una planta de compostaje. Gestión básica de procesos.",
+      "app1": "Plataforma completa de gestión multiplantas.",
+      "gov": "Integración automática con entidades gubernamentales.",
+      "carbon": "Generación de documentación de forma automática para créditos de carbono."
+    },
+    "current": "Actualmente en desarrollo",
+    "looking": "Estamos buscando partners y plantas de compostaje interesadas en participar en nuestras pruebas piloto."
+  },
+  "cta": {
+    "title": "Forma parte de la revolución del compostaje",
+    "description": "Estamos buscando plantas de compostaje en España para nuestro programa piloto. Sé de los primeros en optimizar tus procesos y explorar el potencial de los créditos de carbono con xCarbon.",
+    "join": "Unirse al programa piloto",
+    "contact": "Contactar con el equipo",
+    "stats": {
+      "pilot": "Piloto",
+      "implementation": "Implementación",
+      "support": "Soporte",
+      "roi": "ROI"
+    },
+    "subStats": {
+      "pilot": "Personalizado",
+      "implementation": "En desarrollo",
+      "support": "Dedicado",
+      "roi": "Estimado 3-6 meses"
+    }
+  },
+  "footer": {
+    "description": "Transformando la gestión de plantas de compostaje con tecnología avanzada, IA y tokenización de créditos de carbono.",
+    "solutions": "Soluciones",
+    "company": "Empresa",
+    "solutionsLinks": {
+      "plants": "Gestión de plantas",
+      "data": "Análisis de datos",
+      "tokenization": "Tokenización",
+      "marketplace": "Marketplace"
+    },
+    "companyLinks": {
+      "about": "Sobre Nosotros",
+      "contact": "Contacto",
+      "blog": "Blog",
+      "jobs": "Trabaja con nosotros"
+    },
+    "rights": "Todos los derechos reservados.",
+    "legal": {
+      "privacy": "Política de privacidad",
+      "terms": "Términos de servicio",
+      "cookies": "Cookies"
+    }
+  },
+  "languageSelector": {
+    "es": "Español",
+    "en": "Inglés",
+    "fr": "Francés"
+  }
+}

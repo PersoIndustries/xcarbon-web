@@ -1,0 +1,139 @@
+
+{
+  "navbar": {
+    "home": "Home",
+    "features": "Features",
+    "ai": "AI & Innovation",
+    "carbon": "Carbon Credits",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Innovative composting management startup",
+    "title": "The future of composting management with xCarbon",
+    "description": "Developing a SAAS platform that will optimize the composting process with AI, automate carbon credit creation, and maximize operational efficiency.",
+    "join": "Join pilot program",
+    "roadmap": "View roadmap",
+    "stats": {
+      "efficiency": "Expected efficiency increase",
+      "cost": "Estimated cost reduction",
+      "value": "Potential credit value"
+    }
+  },
+  "features": {
+    "title": "Key Features",
+    "subtitle": "Our platform integrates all the necessary tools to optimize the management of composting plants",
+    "items": {
+      "monitoring": {
+        "title": "Real-time monitoring",
+        "description": "Complete control of all composting processes in a unified and intuitive interface."
+      },
+      "analytics": {
+        "title": "Advanced data analysis",
+        "description": "Visualization of KPIs and key metrics to optimize plant operations."
+      },
+      "resources": {
+        "title": "Resource management",
+        "description": "Efficient planning of resources, personnel, and machinery to maximize productivity."
+      },
+      "traceability": {
+        "title": "Complete traceability",
+        "description": "Tracking of the complete cycle from organic waste to final compost and carbon credits."
+      },
+      "compliance": {
+        "title": "Regulatory compliance",
+        "description": "We ensure compliance with all environmental regulations and Spanish legal requirements."
+      },
+      "reports": {
+        "title": "Custom reports",
+        "description": "Generation of detailed reports on performance, sustainability, and carbon footprint."
+      }
+    }
+  },
+  "ai": {
+    "title": "AI for composting transformation",
+    "description": "At xCarbon, artificial intelligence is not an add-on, but the core of our value proposition. Our technology constantly learns to improve efficiency, reduce costs, and maximize production.",
+    "roadmap": "Our AI roadmap",
+    "roadmap_description": "includes increasingly sophisticated algorithms for outcome prediction, resource optimization, and automatic generation of data-based reports.",
+    "algorithms": {
+      "title": "Predictive algorithms",
+      "description": "We use deep learning models to predict optimal composting conditions, maturation time, and compost quality."
+    },
+    "optimization": {
+      "title": "Process optimization",
+      "description": "Our algorithms continuously analyze data to identify opportunities for improvement in the composting process and reduce processing times."
+    },
+    "automation": {
+      "title": "Intelligent automation",
+      "description": "Automated systems that adjust parameters such as aeration, humidity, and temperature in real-time based on data and predictive models."
+    }
+  },
+  "roadmap": {
+    "title": "Our Roadmap",
+    "subtitle": "We are in full development to revolutionize the composting sector in Spain",
+    "milestones": {
+      "start": "Start",
+      "poc": "Proof of concept",
+      "app05": "Application version 0.5",
+      "app1": "Plant manager. Version 1",
+      "gov": "Government integrations",
+      "carbon": "Automated carbon credits"
+    },
+    "descriptions": {
+      "start": "First proof of concept tests and ideation.",
+      "poc": "Applied to a composting plant.",
+      "app05": "Applied to a composting plant. Basic process management.",
+      "app1": "Complete multi-plant management platform.",
+      "gov": "Automatic integration with government entities.",
+      "carbon": "Automatic generation of documentation for carbon credits."
+    },
+    "current": "Currently in development",
+    "looking": "We are looking for partners and composting plants interested in participating in our pilot tests."
+  },
+  "cta": {
+    "title": "Be part of the composting revolution",
+    "description": "We are looking for composting plants in Spain for our pilot program. Be among the first to optimize your processes and explore the potential of carbon credits with xCarbon.",
+    "join": "Join the pilot program",
+    "contact": "Contact the team",
+    "stats": {
+      "pilot": "Pilot",
+      "implementation": "Implementation",
+      "support": "Support",
+      "roi": "ROI"
+    },
+    "subStats": {
+      "pilot": "Customized",
+      "implementation": "In development",
+      "support": "Dedicated",
+      "roi": "Estimated 3-6 months"
+    }
+  },
+  "footer": {
+    "description": "Transforming the management of composting plants with advanced technology, AI, and carbon credit tokenization.",
+    "solutions": "Solutions",
+    "company": "Company",
+    "solutionsLinks": {
+      "plants": "Plant management",
+      "data": "Data analysis",
+      "tokenization": "Tokenization",
+      "marketplace": "Marketplace"
+    },
+    "companyLinks": {
+      "about": "About Us",
+      "contact": "Contact",
+      "blog": "Blog",
+      "jobs": "Work with us"
+    },
+    "rights": "All rights reserved.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookies"
+    }
+  },
+  "languageSelector": {
+    "es": "Spanish",
+    "en": "English",
+    "fr": "French"
+  }
+}

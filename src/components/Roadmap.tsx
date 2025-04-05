@@ -2,61 +2,64 @@
 import React from "react";
 import { CalendarClock, Check, Sparkles, FileCheck, Building, Leaf } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-
-const milestones = [
-  {
-    year: "2023",
-    title: "Inicio",
-    description: "Primeras pruebas de concepto e ideación.",
-    icon: Sparkles,
-    completed: true,
-  },
-  {
-    year: "2024",
-    title: "Prueba de concepto",
-    description: "Aplicada a una planta de compostaje.",
-    icon: Building,
-    completed: true,
-    current: true,
-  },
-  {
-    year: "Q1 2025",
-    title: "Aplicación versión 0.5",
-    description: "Aplicada a una planta de compostaje. Gestión básica de procesos.",
-    icon: CalendarClock,
-    completed: false,
-  },
-  {
-    year: "Q3 2025",
-    title: "Gestor de plantas. Versión 1",
-    description: "Plataforma completa de gestión multiplantas.",
-    icon: Building,
-    completed: false,
-  },
-  {
-    year: "2026",
-    title: "Integraciones gubernamentales",
-    description: "Integración automática con entidades gubernamentales.",
-    icon: FileCheck,
-    completed: false,
-  },
-  {
-    year: "2026+",
-    title: "Créditos de carbono automatizados",
-    description: "Generación de documentación de forma automática para créditos de carbono.",
-    icon: Leaf,
-    completed: false,
-  },
-];
+import { useLanguage } from "@/lib/i18n/LanguageContext";
 
 const Roadmap = () => {
+  const { t } = useLanguage();
+  
+  const milestones = [
+    {
+      year: "2023",
+      title: t("roadmap.milestones.start"),
+      description: t("roadmap.descriptions.start"),
+      icon: Sparkles,
+      completed: true,
+    },
+    {
+      year: "2024",
+      title: t("roadmap.milestones.poc"),
+      description: t("roadmap.descriptions.poc"),
+      icon: Building,
+      completed: true,
+      current: true,
+    },
+    {
+      year: "Q1 2025",
+      title: t("roadmap.milestones.app05"),
+      description: t("roadmap.descriptions.app05"),
+      icon: CalendarClock,
+      completed: false,
+    },
+    {
+      year: "Q3 2025",
+      title: t("roadmap.milestones.app1"),
+      description: t("roadmap.descriptions.app1"),
+      icon: Building,
+      completed: false,
+    },
+    {
+      year: "2026",
+      title: t("roadmap.milestones.gov"),
+      description: t("roadmap.descriptions.gov"),
+      icon: FileCheck,
+      completed: false,
+    },
+    {
+      year: "2026+",
+      title: t("roadmap.milestones.carbon"),
+      description: t("roadmap.descriptions.carbon"),
+      icon: Leaf,
+      completed: false,
+    },
+  ];
+
   return (
     <section id="roadmap" className="section bg-muted/50">
       <div className="container mx-auto container-padding">
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <h2 className="mb-4">Nuestro Roadmap</h2>
+          <h2 className="mb-4">{t("roadmap.title")}</h2>
           <p className="text-muted-foreground text-lg">
-            Estamos en pleno desarrollo para revolucionar el sector del compostaje en España
+            {t("roadmap.subtitle")}
           </p>
         </div>
 
@@ -101,9 +104,9 @@ const Roadmap = () => {
         </div>
         
         <div className="text-center mt-16">
-          <p className="text-lg font-medium text-primary">Actualmente en desarrollo</p>
+          <p className="text-lg font-medium text-primary">{t("roadmap.current")}</p>
           <p className="text-muted-foreground mt-2">
-            Estamos buscando partners y plantas de compostaje interesadas en participar en nuestras pruebas piloto.
+            {t("roadmap.looking")}
           </p>
         </div>
       </div>
