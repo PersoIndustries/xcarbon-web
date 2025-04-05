@@ -68,6 +68,63 @@
       "description": "Automated systems that adjust parameters such as aeration, humidity, and temperature in real-time based on data and predictive models."
     }
   },
+  "carbonCredits": {
+    "title": "Carbon Credits Generation and Tokenization",
+    "description": "We convert efficient organic waste management into verifiable and tradable digital assets",
+    "verification": {
+      "title": "Automated verification",
+      "description": "Our platform performs accurate calculations of CO2 emission reductions based on real data from composting processes and international standards."
+    },
+    "tokenization": {
+      "title": "Tokenization",
+      "description": "We convert verified carbon credits into digital tokens backed by real emission reductions, creating a sustainable and transparent asset."
+    },
+    "marketplace": {
+      "title": "Proprietary marketplace",
+      "description": "We offer an integrated market where companies and organizations can acquire verified carbon credits, directly supporting sustainable composting projects."
+    },
+    "impact": {
+      "title": "Environmental impact",
+      "description": "Each token represents a real contribution to the fight against climate change, transforming waste into resources and reducing the global carbon footprint."
+    },
+    "process": {
+      "title": "Carbon credit generation process",
+      "step1": "Process measurement",
+      "step2": "Reduction calculation",
+      "step3": "Verification and tokenization",
+      "step4": "Commercialization"
+    }
+  },
+  "mission": {
+    "title": "Our Mission",
+    "paragraph1": "At xCarbon we are committed to transforming organic waste management in Spain through cutting-edge technology, actively contributing to the circular economy and the fight against climate change.",
+    "paragraph2": "Our vision is to turn each composting plant into a sustainable innovation center that not only reduces waste, but generates economic and environmental value through the production of high-quality compost and verifiable carbon credits.",
+    "stats": {
+      "plants": "Plants managed",
+      "tons": "Processed tons",
+      "credits": "Credits generated",
+      "provinces": "Provinces"
+    },
+    "values": {
+      "title": "Core values",
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Commitment to practices that favor the environment and reduce the carbon footprint."
+      },
+      "innovation": {
+        "title": "Technological innovation",
+        "description": "Constant development of solutions that leverage technology to solve environmental problems."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "Verifiable and traceable data in all our processes and in the generation of carbon credits."
+      },
+      "impact": {
+        "title": "Social impact",
+        "description": "Creating value for the communities where plants using our technology operate."
+      }
+    }
+  },
   "roadmap": {
     "title": "Our Roadmap",
     "subtitle": "We are in full development to revolutionize the composting sector in Spain",

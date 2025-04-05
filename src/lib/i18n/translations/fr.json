@@ -5,7 +5,7 @@
     "features": "Fonctionnalités",
     "ai": "IA & Innovation",
     "carbon": "Crédits Carbone",
-    "about": "À Propos",
+    "about": "À propos",
     "contact": "Contact"
   },
   "hero": {
@@ -15,8 +15,8 @@
     "join": "Rejoindre le programme pilote",
     "roadmap": "Voir la feuille de route",
     "stats": {
-      "efficiency": "Augmentation d'efficacité prévue",
-      "cost": "Réduction de coûts estimée",
+      "efficiency": "Augmentation prévue de l'efficacité",
+      "cost": "Réduction estimée des coûts",
       "value": "Valeur potentielle des crédits"
     }
   },
@@ -30,7 +30,7 @@
       },
       "analytics": {
         "title": "Analyse avancée des données",
-        "description": "Visualisation des KPIs et des métriques clés pour optimiser l'exploitation des usines."
+        "description": "Visualisation des KPI et des métriques clés pour optimiser le fonctionnement des usines."
       },
       "resources": {
         "title": "Gestion des ressources",
@@ -38,21 +38,21 @@
       },
       "traceability": {
         "title": "Traçabilité complète",
-        "description": "Suivi du cycle complet depuis les déchets organiques jusqu'au compost final et aux crédits carbone."
+        "description": "Suivi du cycle complet des déchets organiques au compost final et aux crédits carbone."
       },
       "compliance": {
         "title": "Conformité réglementaire",
-        "description": "Nous assurons la conformité à toutes les réglementations environnementales et aux exigences légales espagnoles."
+        "description": "Nous assurons la conformité avec toutes les réglementations environnementales et les exigences légales espagnoles."
       },
       "reports": {
         "title": "Rapports personnalisés",
-        "description": "Génération de rapports détaillés sur les performances, la durabilité et l'empreinte carbone."
+        "description": "Génération de rapports détaillés sur la performance, la durabilité et l'empreinte carbone."
       }
     }
   },
   "ai": {
     "title": "IA pour la transformation du compostage",
-    "description": "Chez xCarbon, l'intelligence artificielle n'est pas un complément, mais le cœur de notre proposition de valeur. Notre technologie apprend constamment pour améliorer l'efficacité, réduire les coûts et maximiser la production.",
+    "description": "Chez xCarbon, l'intelligence artificielle n'est pas un complément, mais le cœur de notre proposition de valeur. Notre technologie apprend constamment à améliorer l'efficacité, réduire les coûts et maximiser la production.",
     "roadmap": "Notre feuille de route IA",
     "roadmap_description": "comprend des algorithmes de plus en plus sophistiqués pour la prédiction des résultats, l'optimisation des ressources et la génération automatique de rapports basés sur les données.",
     "algorithms": {
@@ -65,7 +65,64 @@
     },
     "automation": {
       "title": "Automatisation intelligente",
-      "description": "Systèmes automatisés qui ajustent des paramètres comme l'aération, l'humidité et la température en temps réel sur la base de données et de modèles prédictifs."
+      "description": "Systèmes automatisés qui ajustent des paramètres tels que l'aération, l'humidité et la température en temps réel sur la base de données et de modèles prédictifs."
+    }
+  },
+  "carbonCredits": {
+    "title": "Génération et Tokenisation de Crédits Carbone",
+    "description": "Nous convertissons la gestion efficace des déchets organiques en actifs numériques vérifiables et négociables",
+    "verification": {
+      "title": "Vérification automatisée",
+      "description": "Notre plateforme effectue des calculs précis des réductions d'émissions de CO2 basés sur des données réelles des processus de compostage et des normes internationales."
+    },
+    "tokenization": {
+      "title": "Tokenisation",
+      "description": "Nous convertissons les crédits carbone vérifiés en jetons numériques soutenus par des réductions réelles d'émissions, créant un actif durable et transparent."
+    },
+    "marketplace": {
+      "title": "Marché propriétaire",
+      "description": "Nous offrons un marché intégré où les entreprises et les organisations peuvent acquérir des crédits carbone vérifiés, soutenant directement des projets de compostage durables."
+    },
+    "impact": {
+      "title": "Impact environnemental",
+      "description": "Chaque jeton représente une contribution réelle à la lutte contre le changement climatique, transformant les déchets en ressources et réduisant l'empreinte carbone mondiale."
+    },
+    "process": {
+      "title": "Processus de génération de crédits carbone",
+      "step1": "Mesure des processus",
+      "step2": "Calcul des réductions",
+      "step3": "Vérification et tokenisation",
+      "step4": "Commercialisation"
+    }
+  },
+  "mission": {
+    "title": "Notre Mission",
+    "paragraph1": "Chez xCarbon, nous nous engageons à transformer la gestion des déchets organiques en Espagne grâce à une technologie de pointe, contribuant activement à l'économie circulaire et à la lutte contre le changement climatique.",
+    "paragraph2": "Notre vision est de transformer chaque usine de compostage en un centre d'innovation durable qui non seulement réduit les déchets, mais génère également une valeur économique et environnementale grâce à la production de compost de haute qualité et de crédits carbone vérifiables.",
+    "stats": {
+      "plants": "Usines gérées",
+      "tons": "Tonnes traitées",
+      "credits": "Crédits générés",
+      "provinces": "Provinces"
+    },
+    "values": {
+      "title": "Valeurs fondamentales",
+      "sustainability": {
+        "title": "Durabilité",
+        "description": "Engagement envers des pratiques qui favorisent l'environnement et réduisent l'empreinte carbone."
+      },
+      "innovation": {
+        "title": "Innovation technologique",
+        "description": "Développement constant de solutions qui utilisent la technologie pour résoudre les problèmes environnementaux."
+      },
+      "transparency": {
+        "title": "Transparence",
+        "description": "Données vérifiables et traçables dans tous nos processus et dans la génération de crédits carbone."
+      },
+      "impact": {
+        "title": "Impact social",
+        "description": "Création de valeur pour les communautés où opèrent les usines qui utilisent notre technologie."
+      }
     }
   },
   "roadmap": {
@@ -75,20 +132,20 @@
       "start": "Début",
       "poc": "Preuve de concept",
       "app05": "Application version 0.5",
-      "app1": "Gestionnaire d'usines. Version 1",
+      "app1": "Gestionnaire d'usine. Version 1",
       "gov": "Intégrations gouvernementales",
       "carbon": "Crédits carbone automatisés"
     },
     "descriptions": {
       "start": "Premiers tests de concept et idéation.",
       "poc": "Appliqué à une usine de compostage.",
-      "app05": "Appliqué à une usine de compostage. Gestion de base des processus.",
+      "app05": "Appliqué à une usine de compostage. Gestion basique des processus.",
       "app1": "Plateforme complète de gestion multi-usines.",
       "gov": "Intégration automatique avec les entités gouvernementales.",
       "carbon": "Génération automatique de documentation pour les crédits carbone."
     },
     "current": "Actuellement en développement",
-    "looking": "Nous recherchons des partenaires et des usines de compostage intéressés par la participation à nos tests pilotes."
+    "looking": "Nous recherchons des partenaires et des usines de compostage intéressés à participer à nos tests pilotes."
   },
   "cta": {
     "title": "Faites partie de la révolution du compostage",
@@ -105,11 +162,11 @@
       "pilot": "Personnalisé",
       "implementation": "En développement",
       "support": "Dédié",
-      "roi": "Estimé à 3-6 mois"
+      "roi": "Estimé 3-6 mois"
     }
   },
   "footer": {
-    "description": "Transformation de la gestion des usines de compostage avec une technologie avancée, l'IA et la tokenisation des crédits carbone.",
+    "description": "Transformer la gestion des usines de compostage avec une technologie avancée, l'IA et la tokenisation des crédits carbone.",
     "solutions": "Solutions",
     "company": "Entreprise",
     "solutionsLinks": {
@@ -119,7 +176,7 @@
       "marketplace": "Marketplace"
     },
     "companyLinks": {
-      "about": "À Propos",
+      "about": "À propos",
       "contact": "Contact",
       "blog": "Blog",
       "jobs": "Travaillez avec nous"

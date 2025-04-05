@@ -68,6 +68,63 @@
       "description": "Sistemas automatizados que ajustan parámetros como aireación, humedad y temperatura en tiempo real basados en datos y modelos predictivos."
     }
   },
+  "carbonCredits": {
+    "title": "Generación y Tokenización de Créditos de Carbono",
+    "description": "Convertimos la gestión eficiente de residuos orgánicos en activos digitales verificables y comercializables",
+    "verification": {
+      "title": "Verificación automatizada",
+      "description": "Nuestra plataforma realiza cálculos precisos de la reducción de emisiones de CO2 basados en datos reales de los procesos de compostaje y estándares internacionales."
+    },
+    "tokenization": {
+      "title": "Tokenización",
+      "description": "Convertimos los créditos de carbono verificados en tokens digitales respaldados por reducción real de emisiones, creando un activo sostenible y transparente."
+    },
+    "marketplace": {
+      "title": "Marketplace propio",
+      "description": "Ofrecemos un mercado integrado donde empresas y organizaciones pueden adquirir créditos de carbono verificados, apoyando directamente proyectos de compostaje sostenible."
+    },
+    "impact": {
+      "title": "Impacto ambiental",
+      "description": "Cada token representa una contribución real a la lucha contra el cambio climático, transformando residuos en recursos y reduciendo la huella de carbono global."
+    },
+    "process": {
+      "title": "Proceso de generación de créditos de carbono",
+      "step1": "Medición de procesos",
+      "step2": "Cálculo de reducciones",
+      "step3": "Verificación y tokenización",
+      "step4": "Comercialización"
+    }
+  },
+  "mission": {
+    "title": "Nuestra Misión",
+    "paragraph1": "En xCarbon estamos comprometidos con transformar la gestión de residuos orgánicos en España mediante tecnología de vanguardia, contribuyendo activamente a la economía circular y la lucha contra el cambio climático.",
+    "paragraph2": "Nuestra visión es convertir cada planta de compostaje en un centro de innovación sostenible que no solo reduce residuos, sino que genera valor económico y ambiental a través de la producción de compost de alta calidad y créditos de carbono verificables.",
+    "stats": {
+      "plants": "Plantas gestionadas",
+      "tons": "Toneladas procesadas",
+      "credits": "Créditos generados",
+      "provinces": "Provincias"
+    },
+    "values": {
+      "title": "Valores fundamentales",
+      "sustainability": {
+        "title": "Sostenibilidad",
+        "description": "Compromiso con prácticas que favorecen el medio ambiente y reducen la huella de carbono."
+      },
+      "innovation": {
+        "title": "Innovación tecnológica",
+        "description": "Desarrollo constante de soluciones que aprovechan la tecnología para resolver problemas ambientales."
+      },
+      "transparency": {
+        "title": "Transparencia",
+        "description": "Datos verificables y trazables en todos nuestros procesos y en la generación de créditos de carbono."
+      },
+      "impact": {
+        "title": "Impacto social",
+        "description": "Creación de valor para las comunidades donde operan las plantas que utilizan nuestra tecnología."
+      }
+    }
+  },
   "roadmap": {
     "title": "Nuestro Roadmap",
     "subtitle": "Estamos en pleno desarrollo para revolucionar el sector del compostaje en España",
