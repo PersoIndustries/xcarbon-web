@@ -2,6 +2,7 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { CheckCircle, Target, Sparkles, Leaf } from "lucide-react";
 
 const Mission = () => {
   const { t } = useLanguage();
@@ -19,25 +20,25 @@ const Mission = () => {
               {t("mission.paragraph2")}
             </p>
             <div className="grid grid-cols-2 gap-4 mt-8">
-              <Card className="border border-primary/20">
+              <Card className="border border-primary/20 hover:border-primary/40 transition-colors">
                 <CardContent className="p-4 text-center">
                   <h3 className="text-2xl font-bold text-primary mb-1">+50</h3>
                   <p className="text-sm text-muted-foreground">{t("mission.stats.plants")}</p>
                 </CardContent>
               </Card>
-              <Card className="border border-primary/20">
+              <Card className="border border-primary/20 hover:border-primary/40 transition-colors">
                 <CardContent className="p-4 text-center">
                   <h3 className="text-2xl font-bold text-primary mb-1">25k</h3>
                   <p className="text-sm text-muted-foreground">{t("mission.stats.tons")}</p>
                 </CardContent>
               </Card>
-              <Card className="border border-primary/20">
+              <Card className="border border-primary/20 hover:border-primary/40 transition-colors">
                 <CardContent className="p-4 text-center">
                   <h3 className="text-2xl font-bold text-primary mb-1">3.2k</h3>
                   <p className="text-sm text-muted-foreground">{t("mission.stats.credits")}</p>
                 </CardContent>
               </Card>
-              <Card className="border border-primary/20">
+              <Card className="border border-primary/20 hover:border-primary/40 transition-colors">
                 <CardContent className="p-4 text-center">
                   <h3 className="text-2xl font-bold text-primary mb-1">15+</h3>
                   <p className="text-sm text-muted-foreground">{t("mission.stats.provinces")}</p>
@@ -51,7 +52,7 @@ const Mission = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <span className="inline-flex items-center justify-center rounded-full bg-primary/10 p-1 mr-3 mt-1">
-                  <span className="h-2 w-2 rounded-full bg-primary"></span>
+                  <Leaf className="h-4 w-4 text-primary" />
                 </span>
                 <div>
                   <h4 className="font-medium">{t("mission.values.sustainability.title")}</h4>
@@ -60,7 +61,7 @@ const Mission = () => {
               </li>
               <li className="flex items-start">
                 <span className="inline-flex items-center justify-center rounded-full bg-primary/10 p-1 mr-3 mt-1">
-                  <span className="h-2 w-2 rounded-full bg-primary"></span>
+                  <Sparkles className="h-4 w-4 text-primary" />
                 </span>
                 <div>
                   <h4 className="font-medium">{t("mission.values.innovation.title")}</h4>
@@ -69,7 +70,7 @@ const Mission = () => {
               </li>
               <li className="flex items-start">
                 <span className="inline-flex items-center justify-center rounded-full bg-primary/10 p-1 mr-3 mt-1">
-                  <span className="h-2 w-2 rounded-full bg-primary"></span>
+                  <CheckCircle className="h-4 w-4 text-primary" />
                 </span>
                 <div>
                   <h4 className="font-medium">{t("mission.values.transparency.title")}</h4>
@@ -78,7 +79,7 @@ const Mission = () => {
               </li>
               <li className="flex items-start">
                 <span className="inline-flex items-center justify-center rounded-full bg-primary/10 p-1 mr-3 mt-1">
-                  <span className="h-2 w-2 rounded-full bg-primary"></span>
+                  <Target className="h-4 w-4 text-primary" />
                 </span>
                 <div>
                   <h4 className="font-medium">{t("mission.values.impact.title")}</h4>

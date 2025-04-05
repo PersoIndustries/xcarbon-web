@@ -128,6 +128,12 @@
   "roadmap": {
     "title": "Nuestro Roadmap",
     "subtitle": "Estamos en pleno desarrollo para revolucionar el sector del compostaje en España",
+    "appPreview": "Vista previa de la futura aplicación",
+    "mockupTitle": "Plataforma en desarrollo activo",
+    "mockupDescription": "Nuestro equipo de desarrollo está trabajando intensamente para construir una plataforma de gestión de compostaje de última generación que revolucionará la industria.",
+    "mockupFeature1": "Interfaz intuitiva y fácil de usar",
+    "mockupFeature2": "Monitorización y análisis en tiempo real",
+    "mockupFeature3": "Flujo de trabajo para generación de créditos de carbono",
     "milestones": {
       "start": "Inicio",
       "poc": "Prueba de concepto",
@@ -144,8 +150,28 @@
       "gov": "Integración automática con entidades gubernamentales.",
       "carbon": "Generación de documentación de forma automática para créditos de carbono."
     },
+    "extendedDescriptions": {
+      "start": "Formamos nuestro equipo fundador, realizamos una extensa investigación de mercado y desarrollamos el concepto inicial de xCarbon. Identificamos problemas clave de la industria y comenzamos a diseñar nuestra arquitectura de solución.",
+      "poc": "Implementamos con éxito nuestro primer entorno de pruebas en una instalación de compostaje de tamaño medio en Madrid. Esto nos permitió recopilar datos operativos críticos, refinar nuestros algoritmos y validar nuestra propuesta de valor central.",
+      "app05": "La primera versión funcional de la plataforma xCarbon implementada con funciones básicas de monitoreo, recopilación inicial de datos y herramientas de informes simplificadas. Los primeros usuarios están experimentando mejoras de productividad y obteniendo información sobre sus operaciones.",
+      "app1": "Lanzamiento completo de la plataforma con características integrales para la gestión de múltiples plantas, panel de análisis avanzado y herramientas mejoradas de planificación de recursos.",
+      "gov": "Capacidades de informes integradas con agencias gubernamentales ambientales para un cumplimiento y certificaciones simplificados.",
+      "carbon": "Proceso de cálculo, verificación y tokenización de créditos de carbono totalmente automatizado con integración blockchain."
+    },
     "current": "Actualmente en desarrollo",
-    "looking": "Estamos buscando partners y plantas de compostaje interesadas en participar en nuestras pruebas piloto."
+    "looking": "Estamos buscando partners y plantas de compostaje interesadas en participar en nuestras pruebas piloto.",
+    "partners": {
+      "title": "Únete al ecosistema xCarbon",
+      "description": "Estamos construyendo activamente asociaciones con instalaciones de compostaje, organizaciones centradas en la sostenibilidad e inversores que comparten nuestra visión de transformar la gestión de residuos a través de la tecnología.",
+      "composting": "Plantas de compostaje",
+      "compostingDesc": "Buscamos plantas de todos los tamaños interesadas en optimizar sus operaciones y explorar nuevas fuentes de ingresos a través de créditos de carbono.",
+      "investors": "Inversores y patrocinadores",
+      "investorsDesc": "Conecta con nosotros si estás interesado en apoyar la próxima generación de tecnología ambiental con un importante potencial de mercado.",
+      "contact": "Ponte en contacto",
+      "email": "Escríbenos a",
+      "phone": "Llámanos al",
+      "quote": "Juntos podemos transformar la industria del compostaje mientras luchamos contra el cambio climático y generamos nuevas fuentes de ingresos."
+    }
   },
   "cta": {
     "title": "Forma parte de la revolución del compostaje",

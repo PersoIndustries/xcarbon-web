@@ -6,12 +6,12 @@ import { Globe } from 'lucide-react';
 import { Language, useLanguage } from '@/lib/i18n/LanguageContext';
 
 const LanguageSelector = () => {
-  const { language, setLanguage, t } = useLanguage();
+  const { language, setLanguage } = useLanguage();
 
   const languages: { code: Language; name: string }[] = [
-    { code: 'es', name: t('languageSelector.es') },
-    { code: 'en', name: t('languageSelector.en') },
-    { code: 'fr', name: t('languageSelector.fr') }
+    { code: 'es', name: 'Español' },
+    { code: 'en', name: 'English' },
+    { code: 'fr', name: 'Français' }
   ];
 
   return (

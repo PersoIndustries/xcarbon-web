@@ -128,6 +128,12 @@
   "roadmap": {
     "title": "Our Roadmap",
     "subtitle": "We are in full development to revolutionize the composting sector in Spain",
+    "appPreview": "Future application preview",
+    "mockupTitle": "Platform under active development",
+    "mockupDescription": "Our development team is working hard to build a state-of-the-art composting management platform that will revolutionize the industry.",
+    "mockupFeature1": "Intuitive and user-friendly interface",
+    "mockupFeature2": "Real-time monitoring and analytics",
+    "mockupFeature3": "Carbon credit generation workflow",
     "milestones": {
       "start": "Start",
       "poc": "Proof of concept",
@@ -144,8 +150,28 @@
       "gov": "Automatic integration with government entities.",
       "carbon": "Automatic generation of documentation for carbon credits."
     },
+    "extendedDescriptions": {
+      "start": "We assembled our founding team, conducted extensive market research, and developed the initial xCarbon concept. We identified key industry problems and began designing our solution architecture.",
+      "poc": "We successfully implemented our first testing environment at a medium-sized composting facility in Madrid. This allowed us to gather critical operational data, refine our algorithms, and validate our core value proposition.",
+      "app05": "The first working version of the xCarbon platform deployed with basic monitoring functions, initial data collection, and simplified reporting tools. Early users are experiencing productivity improvements and gaining insights into their operations.",
+      "app1": "Complete platform release with comprehensive features for managing multiple plants, advanced analytics dashboard, and enhanced resource planning tools.",
+      "gov": "Integrated reporting capabilities with government environmental agencies for streamlined compliance and certifications.",
+      "carbon": "Fully automated carbon credit calculation, verification and tokenization process with blockchain integration."
+    },
     "current": "Currently in development",
-    "looking": "We are looking for partners and composting plants interested in participating in our pilot tests."
+    "looking": "We are looking for partners and composting plants interested in participating in our pilot tests.",
+    "partners": {
+      "title": "Join the xCarbon ecosystem",
+      "description": "We're actively building partnerships with composting facilities, sustainability-focused organizations, and investors who share our vision of transforming waste management through technology.",
+      "composting": "Composting facilities",
+      "compostingDesc": "We're looking for plants of all sizes interested in optimizing their operations and exploring new revenue streams through carbon credits.",
+      "investors": "Investors and sponsors",
+      "investorsDesc": "Connect with us if you're interested in supporting the next generation of environmental technology with significant market potential.",
+      "contact": "Get in touch",
+      "email": "Email us at",
+      "phone": "Call us at",
+      "quote": "Together we can transform the composting industry while fighting climate change and generating new revenue streams."
+    }
   },
   "cta": {
     "title": "Be part of the composting revolution",
