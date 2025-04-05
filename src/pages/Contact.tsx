@@ -9,7 +9,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { toast } from "@/hooks/use-toast";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
+import { useEffect } from "react";
 
 const Contact = () => {
   const { t } = useLanguage();
@@ -20,6 +21,11 @@ const Contact = () => {
     subject: "",
     message: ""
   });
+
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -144,13 +150,6 @@ const Contact = () => {
                         <div>
                           <h4 className="font-medium">{t("contact.info.email")}</h4>
                           <p className="text-muted-foreground">info@xcarbon.io</p>
-                        </div>
-                      </div>
-                      <div className="flex items-start">
-                        <Phone className="h-5 w-5 text-primary mr-3 mt-1" />
-                        <div>
-                          <h4 className="font-medium">{t("contact.info.phone")}</h4>
-                          <p className="text-muted-foreground">+34 000 000 000</p>
                         </div>
                       </div>
                       <div className="flex items-start">

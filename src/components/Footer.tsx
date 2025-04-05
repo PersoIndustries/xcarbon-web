@@ -51,8 +51,11 @@ const Footer = () => {
                   {t("footer.companyLinks.contact")}
                 </Link>
               </li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">{t("footer.companyLinks.blog")}</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">{t("footer.companyLinks.jobs")}</a></li>
+              <li>
+                <Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">
+                  {t("footer.companyLinks.participate")}
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -60,9 +63,9 @@ const Footer = () => {
         <div className="border-t mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} xCarbon. {t("footer.rights")}</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">{t("footer.legal.privacy")}</a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">{t("footer.legal.terms")}</a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">{t("footer.legal.cookies")}</a>
+            <Link to="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors">{t("footer.legal.privacy")}</Link>
+            <Link to="/terms" className="text-sm text-muted-foreground hover:text-primary transition-colors">{t("footer.legal.terms")}</Link>
+            <Link to="/cookies" className="text-sm text-muted-foreground hover:text-primary transition-colors">{t("footer.legal.cookies")}</Link>
           </div>
         </div>
       </div>

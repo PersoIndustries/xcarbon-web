@@ -251,8 +251,7 @@
     "companyLinks": {
       "about": "About Us",
       "contact": "Contact",
-      "blog": "Blog",
-      "jobs": "Work with us"
+      "participate": "Participate"
     },
     "rights": "All rights reserved.",
     "legal": {
@@ -265,5 +264,118 @@
     "es": "Español",
     "en": "English",
     "fr": "Français"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated:",
+    "introduction": {
+      "title": "Introduction",
+      "content": "This Privacy Policy explains how xCarbon collects, uses, and protects your personal information when you use our website or services."
+    },
+    "dataCollection": {
+      "title": "Information We Collect",
+      "content": "We may collect the following types of information:",
+      "items": {
+        "personal": "Personal information such as your name, email address, and contact details when you submit them through our forms.",
+        "usage": "Usage data about how you interact with our website and services.",
+        "technical": "Technical information such as your IP address, browser type, and device information."
+      }
+    },
+    "dataUse": {
+      "title": "How We Use Your Information",
+      "content": "We use the collected information to provide and improve our services, communicate with you, and ensure compliance with legal obligations."
+    },
+    "dataSharing": {
+      "title": "Information Sharing",
+      "content": "We do not sell your personal information. We may share it with service providers who help us operate our business, or when required by law."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "content": "You have rights regarding your personal information, including the right to access, correct, delete, or restrict processing of your data."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions about this Privacy Policy, please contact us at:"
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated:",
+    "introduction": {
+      "title": "Introduction",
+      "content": "These Terms of Service govern your use of the xCarbon website and services. By accessing or using our services, you agree to be bound by these terms."
+    },
+    "usage": {
+      "title": "Use of Services",
+      "content": "Our services are provided for informational purposes and to facilitate communication. You agree to use our services in compliance with all applicable laws and regulations."
+    },
+    "account": {
+      "title": "User Accounts",
+      "content": "If you create an account, you are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account."
+    },
+    "intellectual": {
+      "title": "Intellectual Property",
+      "content": "All content, features, and functionality of our services are owned by xCarbon and are protected by copyright and other intellectual property laws."
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "content": "xCarbon shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use our services."
+    },
+    "amendments": {
+      "title": "Amendments",
+      "content": "We reserve the right to modify these Terms of Service at any time. Continued use of our services after changes constitutes acceptance of the modified terms."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions about these Terms of Service, please contact us at:"
+    }
+  },
+  "cookies": {
+    "title": "Cookies Policy",
+    "lastUpdated": "Last updated:",
+    "introduction": {
+      "title": "Introduction",
+      "content": "This Cookies Policy explains how xCarbon uses cookies and similar technologies on our website to enhance your browsing experience."
+    },
+    "what": {
+      "title": "What Are Cookies",
+      "content": "Cookies are small text files that are stored on your device when you visit a website. They help websites remember your preferences and understand how you interact with the site."
+    },
+    "types": {
+      "title": "Types of Cookies We Use",
+      "content": "We use the following types of cookies on our website:",
+      "items": {
+        "essential": {
+          "title": "Essential Cookies",
+          "content": "These are necessary for the website to function properly and cannot be disabled."
+        },
+        "preferences": {
+          "title": "Preference Cookies",
+          "content": "These remember your settings and preferences to enhance your experience."
+        },
+        "statistics": {
+          "title": "Statistics Cookies",
+          "content": "These help us understand how visitors interact with our website by collecting anonymous information."
+        },
+        "marketing": {
+          "title": "Marketing Cookies",
+          "content": "These are used to track visitors across websites to display relevant advertisements."
+        }
+      }
+    },
+    "manage": {
+      "title": "Managing Cookies",
+      "content": "You can control cookies through your browser settings. However, disabling certain cookies may limit your ability to use some features of our website."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions about our use of cookies, please contact us at:"
+    }
+  },
+  "cookieConsent": {
+    "message": "We use cookies to enhance your browsing experience and analyze our traffic.",
+    "accept": "Accept All",
+    "decline": "Decline",
+    "learnMore": "Learn more"
   }
 }
