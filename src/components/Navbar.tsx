@@ -44,9 +44,9 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <Image 
-                src="/lovable-uploads/03d2da6d-96cb-4e8c-b04d-db0964d29641.png" 
-                alt="Carbon Logo" 
-                width={160} 
+                src="/lovable-uploads/24c59743-2601-4d2f-b545-85b6df43f762.png" 
+                alt="CARBON Logo" 
+                width={180} 
                 height={50} 
                 className="h-10 w-auto"
               />
