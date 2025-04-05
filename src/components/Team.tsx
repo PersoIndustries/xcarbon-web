@@ -16,10 +16,16 @@ const Team = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <Card className="border bg-card overflow-hidden">
             <CardContent className="p-6">
-              <div className="aspect-square bg-muted rounded-full w-32 h-32 mx-auto mb-4"></div>
+              <div className="aspect-square bg-muted rounded-full w-40 h-40 mx-auto mb-4 overflow-hidden">
+                <img 
+                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&h=256&q=80" 
+                  alt={t("team.members.member1.name")}
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="text-xl font-bold text-center">{t("team.members.member1.name")}</h3>
               <p className="text-primary text-center mb-4">{t("team.members.member1.position")}</p>
               <p className="text-muted-foreground text-center">{t("team.members.member1.bio")}</p>
@@ -28,19 +34,16 @@ const Team = () => {
           
           <Card className="border bg-card overflow-hidden">
             <CardContent className="p-6">
-              <div className="aspect-square bg-muted rounded-full w-32 h-32 mx-auto mb-4"></div>
+              <div className="aspect-square bg-muted rounded-full w-40 h-40 mx-auto mb-4 overflow-hidden">
+                <img 
+                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&h=256&q=80" 
+                  alt={t("team.members.member2.name")}
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="text-xl font-bold text-center">{t("team.members.member2.name")}</h3>
               <p className="text-primary text-center mb-4">{t("team.members.member2.position")}</p>
               <p className="text-muted-foreground text-center">{t("team.members.member2.bio")}</p>
-            </CardContent>
-          </Card>
-          
-          <Card className="border bg-card overflow-hidden">
-            <CardContent className="p-6">
-              <div className="aspect-square bg-muted rounded-full w-32 h-32 mx-auto mb-4"></div>
-              <h3 className="text-xl font-bold text-center">{t("team.members.member3.name")}</h3>
-              <p className="text-primary text-center mb-4">{t("team.members.member3.position")}</p>
-              <p className="text-muted-foreground text-center">{t("team.members.member3.bio")}</p>
             </CardContent>
           </Card>
         </div>

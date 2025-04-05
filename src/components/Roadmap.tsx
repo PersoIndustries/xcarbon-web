@@ -100,12 +100,12 @@ const Roadmap = () => {
                   </div>
                   
                   <div className="hidden md:flex items-center justify-center w-0">
-                    <div className={`w-12 h-12 rounded-full flex items-center justify-center z-10 ${
-                      milestone.current ? 'bg-primary text-primary-foreground animate-pulse' : 
-                      milestone.completed ? 'bg-green-500 text-white' : 
-                      'bg-card border border-primary/20 text-primary'
+                    <div className={`flex items-center justify-center rounded-full h-12 w-12 ${
+                      milestone.current ? 'bg-primary text-white font-bold animate-pulse' : 
+                      milestone.completed ? 'bg-green-500 text-white font-bold' : 
+                      'bg-background border border-primary/30 text-primary font-bold'
                     }`}>
-                      <span className="text-sm font-bold">{milestone.year}</span>
+                      <span className="text-sm">{milestone.year}</span>
                     </div>
                   </div>
                   
@@ -113,7 +113,7 @@ const Roadmap = () => {
                 </div>
                 
                 {/* Mobile year indicator */}
-                <div className="md:hidden absolute -left-2 top-6 bg-muted px-3 py-1 rounded-full text-sm font-semibold border border-border">
+                <div className="md:hidden absolute -left-2 top-6 rounded-full bg-primary text-white font-bold px-3 py-1 text-sm border border-border">
                   {milestone.year}
                 </div>
               </div>
@@ -154,7 +154,6 @@ const Roadmap = () => {
                 <h4 className="font-semibold mb-4">{t("roadmap.partners.contact")}</h4>
                 <div className="space-y-2">
                   <p className="text-sm">{t("roadmap.partners.email")}: <span className="text-primary">partners@xcarbon.es</span></p>
-                  <p className="text-sm">{t("roadmap.partners.phone")}: <span className="text-primary">+34 900 000 000</span></p>
                 </div>
                 <div className="mt-4 p-4 bg-muted/50 rounded-md text-sm">
                   <p className="italic">"{t("roadmap.partners.quote")}"</p>

@@ -11,6 +11,8 @@ import { Label } from "@/components/ui/label";
 import { toast } from "@/hooks/use-toast";
 import { Mail, MapPin } from "lucide-react";
 import { useEffect } from "react";
+import JoinEcosystem from "@/components/JoinEcosystem";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 const Contact = () => {
   const { t } = useLanguage();
@@ -166,8 +168,10 @@ const Contact = () => {
             </div>
           </div>
         </section>
+        <JoinEcosystem />
       </div>
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 };

@@ -8,6 +8,7 @@ import CarbonCredits from "@/components/CarbonCredits";
 import Roadmap from "@/components/Roadmap";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 const Index = () => {
   // Scroll to top when component mounts
@@ -25,6 +26,7 @@ const Index = () => {
       <Roadmap />
       <CTA />
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 };

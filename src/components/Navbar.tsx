@@ -30,9 +30,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: t("navbar.home"), href: "/" },
-    { name: t("navbar.features"), href: "/#features" },
-    { name: t("navbar.ai"), href: "/#ai-innovation" },
-    { name: t("navbar.carbon"), href: "/#carbon-credits" },
+    { name: t("navbar.carbon"), href: "/carbon-credits" },
     { name: t("navbar.about"), href: "/about" },
   ];
 
