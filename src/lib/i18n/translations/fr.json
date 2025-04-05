@@ -1,4 +1,3 @@
-
 {
   "navbar": {
     "home": "Accueil",
@@ -251,8 +250,7 @@
     "companyLinks": {
       "about": "À propos",
       "contact": "Contact",
-      "blog": "Blog",
-      "jobs": "Travaillez avec nous"
+      "participate": "Participer"
     },
     "rights": "Tous droits réservés.",
     "legal": {

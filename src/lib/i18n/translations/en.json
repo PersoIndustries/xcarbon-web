@@ -373,9 +373,9 @@
     }
   },
   "cookieConsent": {
-    "message": "We use cookies to enhance your browsing experience and analyze our traffic.",
-    "accept": "Accept All",
+    "message": "This website uses cookies to improve your experience and analyze site traffic.",
+    "accept": "Accept",
     "decline": "Decline",
-    "learnMore": "Learn more"
+    "learnMore": "Cookie Policy"
   }
 }
