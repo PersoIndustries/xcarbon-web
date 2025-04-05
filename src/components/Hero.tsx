@@ -22,7 +22,7 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="max-w-3xl mx-auto text-center">
-          <div className="inline-flex items-center justify-center px-4 py-1.5 rounded-full bg-accent text-primary-foreground mb-6 text-sm font-medium animate-float">
+          <div className="inline-flex items-center justify-center px-4 py-1.5 rounded-full bg-accent/80 text-primary font-medium mb-6 text-sm animate-float">
             <Leaf size={16} className="mr-2" />
             <span>{t("hero.badge")}</span>
           </div>
