@@ -42,15 +42,14 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
-            <Link to="/" className="flex items-center space-x-2">
+            <Link to="/" className="flex items-center">
               <Image 
-                src="/lovable-uploads/4a8d067b-b5ef-48bd-bdff-28e07f094bc7.png" 
-                alt="xCarbon Logo" 
-                width={32} 
-                height={32} 
-                className="h-8 w-auto"
+                src="/lovable-uploads/03d2da6d-96cb-4e8c-b04d-db0964d29641.png" 
+                alt="Carbon Logo" 
+                width={160} 
+                height={50} 
+                className="h-10 w-auto"
               />
-              <span className="text-xl font-bold text-primary">xCarbon</span>
             </Link>
           </div>
 
