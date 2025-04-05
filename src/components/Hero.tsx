@@ -13,25 +13,25 @@ const Hero = () => {
         <div className="max-w-3xl mx-auto text-center">
           <div className="inline-flex items-center justify-center px-4 py-1.5 rounded-full bg-accent text-primary-foreground mb-6 text-sm font-medium animate-float">
             <Leaf size={16} className="mr-2" />
-            <span>Revolucionando la gestión de plantas de compostaje</span>
+            <span>Startup innovadora en gestión de compostaje</span>
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-            Gestión inteligente de compostaje con <span className="text-primary">xCarbon</span>
+            El futuro de la gestión de compostaje con <span className="text-primary">xCarbon</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Plataforma SAAS que optimiza el proceso de compostaje con IA, automatiza la creación de créditos de carbono y maximiza la eficiencia operativa.
+            Desarrollando una plataforma SAAS que optimizará el proceso de compostaje con IA, automatizará la creación de créditos de carbono y maximizará la eficiencia operativa.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button size="lg" className="gap-2 group">
-              Solicitar demo
+              Unirse al programa piloto
               <ChevronRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button size="lg" variant="outline" className="gap-2">
               <BarChart2 size={16} />
-              Ver características
+              Ver roadmap
             </Button>
           </div>
         </div>
@@ -40,15 +40,15 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mt-16 bg-card rounded-xl shadow-lg p-6">
           <div className="text-center">
             <p className="text-3xl md:text-4xl font-bold text-primary">+30%</p>
-            <p className="text-sm text-muted-foreground mt-1">Aumento de eficiencia</p>
+            <p className="text-sm text-muted-foreground mt-1">Aumento de eficiencia previsto</p>
           </div>
           <div className="text-center">
             <p className="text-3xl md:text-4xl font-bold text-primary">-25%</p>
-            <p className="text-sm text-muted-foreground mt-1">Reducción de costos</p>
+            <p className="text-sm text-muted-foreground mt-1">Reducción estimada de costos</p>
           </div>
           <div className="text-center">
             <p className="text-3xl md:text-4xl font-bold text-primary">+45%</p>
-            <p className="text-sm text-muted-foreground mt-1">Valor de créditos de carbono</p>
+            <p className="text-sm text-muted-foreground mt-1">Valor potencial de créditos</p>
           </div>
         </div>
       </div>
