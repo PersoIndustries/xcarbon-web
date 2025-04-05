@@ -48,7 +48,7 @@ const Navbar = () => {
                 alt="CARBON Logo" 
                 width={180} 
                 height={50} 
-                className="h-10 w-auto"
+                className="h-12 w-auto" // Increased from h-10 to h-12
               />
             </Link>
           </div>
