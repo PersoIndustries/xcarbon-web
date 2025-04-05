@@ -3,7 +3,6 @@ import React from "react";
 import { CalendarClock, Check, Sparkles, FileCheck, Building, Leaf, Users, Rocket } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
-import Image from "@/components/ui/image";
 
 const Roadmap = () => {
   const { t } = useLanguage();
@@ -68,46 +67,6 @@ const Roadmap = () => {
           <p className="text-muted-foreground text-lg">
             {t("roadmap.subtitle")}
           </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-          <div className="flex items-center justify-center">
-            <div className="relative w-full max-w-md rounded-xl overflow-hidden shadow-lg">
-              <Image
-                src="/placeholder.svg"
-                alt="xCarbon App Mockup"
-                className="w-full h-auto"
-                width={600}
-                height={400}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
-                <div className="p-4 text-white">
-                  <p className="font-medium">{t("roadmap.appPreview")}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div className="flex flex-col justify-center">
-            <h3 className="text-xl font-semibold mb-4">{t("roadmap.mockupTitle")}</h3>
-            <p className="text-muted-foreground mb-4">
-              {t("roadmap.mockupDescription")}
-            </p>
-            <ul className="space-y-2">
-              <li className="flex items-center gap-2">
-                <Check className="h-5 w-5 text-primary" />
-                <span>{t("roadmap.mockupFeature1")}</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Check className="h-5 w-5 text-primary" />
-                <span>{t("roadmap.mockupFeature2")}</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Check className="h-5 w-5 text-primary" />
-                <span>{t("roadmap.mockupFeature3")}</span>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div className="relative">
@@ -203,13 +162,6 @@ const Roadmap = () => {
               </div>
             </div>
           </div>
-        </div>
-        
-        <div className="text-center mt-16">
-          <p className="text-lg font-medium text-primary">{t("roadmap.current")}</p>
-          <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
-            {t("roadmap.looking")}
-          </p>
         </div>
       </div>
     </section>

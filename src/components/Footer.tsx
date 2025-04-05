@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Linkedin } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
 
 const Footer = () => {
@@ -16,17 +16,13 @@ const Footer = () => {
               {t("footer.description")}
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a 
+                href="https://www.linkedin.com/company/xcarbon-io/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
                 <Linkedin size={20} />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Instagram size={20} />
               </a>
             </div>
           </div>

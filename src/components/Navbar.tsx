@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
 import LanguageSelector from "./LanguageSelector";
+import Image from "@/components/ui/image";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -43,6 +44,13 @@ const Navbar = () => {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <a href="#" className="flex items-center space-x-2">
+              <Image 
+                src="/lovable-uploads/4a8d067b-b5ef-48bd-bdff-28e07f094bc7.png" 
+                alt="xCarbon Logo" 
+                width={32} 
+                height={32} 
+                className="h-8 w-auto"
+              />
               <span className="text-xl font-bold text-primary">xCarbon</span>
             </a>
           </div>
