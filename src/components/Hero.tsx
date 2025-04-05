@@ -3,9 +3,17 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronRight, BarChart2, Leaf } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const { t } = useLanguage();
+  
+  const scrollToRoadmap = () => {
+    const roadmapSection = document.getElementById('roadmap');
+    if (roadmapSection) {
+      roadmapSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   
   return (
     <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
@@ -28,11 +36,18 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" className="gap-2 group">
-              {t("hero.join")}
-              <ChevronRight size={16} className="group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button size="lg" variant="outline" className="gap-2">
+            <Link to="/contact">
+              <Button size="lg" className="gap-2 group">
+                {t("hero.join")}
+                <ChevronRight size={16} className="group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="gap-2"
+              onClick={scrollToRoadmap}
+            >
               <BarChart2 size={16} />
               {t("hero.roadmap")}
             </Button>

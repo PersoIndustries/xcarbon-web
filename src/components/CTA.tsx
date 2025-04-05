@@ -3,6 +3,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Send } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { Link } from "react-router-dom";
 
 const CTA = () => {
   const { t } = useLanguage();
@@ -16,13 +17,17 @@ const CTA = () => {
             {t("cta.description")}
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" variant="secondary" className="gap-2">
-              <Send size={16} />
-              {t("cta.join")}
-            </Button>
-            <Button size="lg" variant="outline" className="bg-transparent border-white hover:bg-white/10">
-              {t("cta.contact")}
-            </Button>
+            <Link to="/contact">
+              <Button size="lg" variant="secondary" className="gap-2">
+                <Send size={16} />
+                {t("cta.join")}
+              </Button>
+            </Link>
+            <Link to="/contact">
+              <Button size="lg" variant="outline" className="bg-transparent border-white hover:bg-white/10">
+                {t("cta.contact")}
+              </Button>
+            </Link>
           </div>
           
           <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6">

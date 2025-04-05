@@ -31,10 +31,8 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">{t("footer.solutions")}</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">{t("footer.solutionsLinks.plants")}</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">{t("footer.solutionsLinks.data")}</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">{t("footer.solutionsLinks.tokenization")}</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">{t("footer.solutionsLinks.marketplace")}</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Gestión de Plantas de Compostaje</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors text-muted-foreground/70 italic">Próximamente más soluciones...</a></li>
             </ul>
           </div>
 
@@ -53,7 +51,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">
-                  {t("footer.companyLinks.participate")}
+                  Participar
                 </Link>
               </li>
             </ul>
