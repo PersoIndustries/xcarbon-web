@@ -2,9 +2,38 @@
 import React from "react";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
 import { Card, CardContent } from "@/components/ui/card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const Team = () => {
   const { t } = useLanguage();
+  
+  const teamMembers = [
+    {
+      name: "Carlos Peralta Sorolla",
+      position: t("team.members.member1.position"),
+      bio: t("team.members.member1.bio"),
+      image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=256&h=256&q=80"
+    },
+    {
+      name: "Pablo Peralta Sorolla",
+      position: t("team.members.member2.position"),
+      bio: t("team.members.member2.bio"),
+      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=256&h=256&q=80"
+    }
+  ];
+  
+  const partners = [
+    {
+      name: "Liett Iberica",
+      logo: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=100&q=80",
+      description: t("partners.liett")
+    },
+    {
+      name: "Jardiper",
+      logo: "https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=100&q=80",
+      description: t("partners.jardiper")
+    }
+  ];
   
   return (
     <section className="py-16">
@@ -17,35 +46,49 @@ const Team = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          <Card className="border bg-card overflow-hidden">
-            <CardContent className="p-6">
-              <div className="aspect-square bg-muted rounded-full w-40 h-40 mx-auto mb-4 overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&h=256&q=80" 
-                  alt={t("team.members.member1.name")}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-bold text-center">{t("team.members.member1.name")}</h3>
-              <p className="text-primary text-center mb-4">{t("team.members.member1.position")}</p>
-              <p className="text-muted-foreground text-center">{t("team.members.member1.bio")}</p>
-            </CardContent>
-          </Card>
+          {teamMembers.map((member, index) => (
+            <Card key={index} className="border bg-card overflow-hidden">
+              <CardContent className="p-6">
+                <div className="aspect-square bg-muted rounded-full w-40 h-40 mx-auto mb-4 overflow-hidden">
+                  <img 
+                    src={member.image} 
+                    alt={member.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-xl font-bold text-center">{member.name}</h3>
+                <p className="text-primary text-center mb-4">{member.position}</p>
+                <p className="text-muted-foreground text-center">{member.bio}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+        
+        <div className="mt-20">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">{t("partners.title")}</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              {t("partners.description")}
+            </p>
+          </div>
           
-          <Card className="border bg-card overflow-hidden">
-            <CardContent className="p-6">
-              <div className="aspect-square bg-muted rounded-full w-40 h-40 mx-auto mb-4 overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&h=256&q=80" 
-                  alt={t("team.members.member2.name")}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-bold text-center">{t("team.members.member2.name")}</h3>
-              <p className="text-primary text-center mb-4">{t("team.members.member2.position")}</p>
-              <p className="text-muted-foreground text-center">{t("team.members.member2.bio")}</p>
-            </CardContent>
-          </Card>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {partners.map((partner, index) => (
+              <Card key={index} className="border bg-card overflow-hidden">
+                <CardContent className="p-6 flex flex-col items-center">
+                  <div className="h-16 mb-4 flex items-center justify-center">
+                    <img 
+                      src={partner.logo} 
+                      alt={partner.name}
+                      className="max-h-full max-w-full object-contain"
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold text-center">{partner.name}</h3>
+                  <p className="text-muted-foreground text-center mt-2">{partner.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
       </div>
     </section>
