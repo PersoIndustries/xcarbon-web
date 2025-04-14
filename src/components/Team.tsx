@@ -10,15 +10,15 @@ const Team = () => {
   const teamMembers = [
     {
       name: "Carlos Peralta Sorolla",
-      position: t("team.members.member1.position"),
-      bio: t("team.members.member1.bio"),
-      image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=256&h=256&q=80"
+      position: "CEO, Co-founder y Desarrollador",
+      bio: "Trayectoria en el mundo de la tecnología del videojuego, web3 y otros sectores TIC. Director de estudio de videojuegos, product manager y emprendedor tecnológico.",
+      image: "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=256&h=256&q=80"
     },
     {
       name: "Pablo Peralta Sorolla",
-      position: t("team.members.member2.position"),
-      bio: t("team.members.member2.bio"),
-      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=256&h=256&q=80"
+      position: "Co-founder",
+      bio: "Ingeniero superior agrónomo, gestor medioambiental y empresario con amplia experiencia en sostenibilidad y gestión de recursos.",
+      image: "https://images.unsplash.com/photo-1501286353178-1ec881214838?ixlib=rb-4.0.3&auto=format&fit=crop&w=256&h=256&q=80"
     }
   ];
   
